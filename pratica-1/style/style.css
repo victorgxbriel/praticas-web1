@@ -1,0 +1,20 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100px;
+}
+
+header{
+    text-align: center;
+}
+
+#div-img{
+    background-color: antiquewhite;
+}
+
+#div-title {
+    background-color: crimson;
+}
