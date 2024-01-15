@@ -68,3 +68,7 @@ a:hover {
 li a:hover {
     color:black;    
 }
+
+table, table td {
+    border: 1px solid black;
+}
