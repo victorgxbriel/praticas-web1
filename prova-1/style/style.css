@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: bisque;
+    margin-top: 5px;
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2px;
+    height: 40px;
+}
+
+#imgHeader {
+    width: 20%;
+}
+
+#imgLogo{
+    width: 50%;
+}
+
+#titleHeader {
+    width: 50%;
+}
+
+#searchHeader{
+    width: 30%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+form label {
+    padding-right: 5px;
+    font-size: smaller;
+}
+
+form input {
+    padding-right: 5px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    background-color: bisque;
+    width: 15%;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:cornflowerblue;
+}
+
+article {
+    width: 70%;
+    text-align: center;
+    box-sizing: border-box;
+}
+article img {
+    border-radius: 3%;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+article h1 {
+    padding-top: 10px;
+}
+
+article p {
+    text-align: justify;
+    padding: 10px 8px 0px 8px;
+}
+
+aside {
+    background-color: bisque;
+    width: 15%;
+    text-align: center;
+}
+
+aside h2 {
+    padding: 10px 0px 10px 3px;
+}
+
+.partners {
+    margin: 10px 5px 0px 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8%;
+}
+
+.partners img {
+    padding-top: 10px;
+    width: 80%;
+}
+
+#linksNav {
+    padding-top: 20px;
+}
+
+ul li {
+    padding-top: 10px;
+}
+
+#diretoriaNav{
+    padding-top: 20px;
+}
+
+#diretoria {
+    text-align: center;
+}
+
+.diretores {
+    padding-top: 30px;
+}
+
+.diretores img {
+    width: 80%;
+    border-radius: 10%;
+}
+
+footer {
+    margin: 5px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    background-color: burlywood;
+}
+
+footer a{
+    font-size: 20px;
+}
