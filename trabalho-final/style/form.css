@@ -1,0 +1,48 @@
+#form {
+    width: 100%;
+    height: 10vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.campos{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 0.5vw;
+    box-sizing: border-box;
+}
+
+.campos label {
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: 3px;
+}
+
+.campos input {
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.campos input::placeholder {
+    padding-left: 5px;
+}
+
+.botaoLogin {
+    width: 10vw;
+    height: 2vw;
+    font-size: 1vw;
+    border: 1px solid grey;
+    border-radius: 5vw;
+    color: white;
+    background-color: lightskyblue;
+    margin-top: 5px;
+}
+
+.botaoLogin:hover {
+    font-weight: bold;
+    border: 2px solid darkgrey;
+}
