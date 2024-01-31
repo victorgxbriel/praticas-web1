@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vw;
+}
+
+header {
+    height: 10%;
+}
+
+header h1 {
+    margin-top: 12px;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+#formBusca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#formBusca input {
+    width: 77%;
+    height:20px;
+}
+
+#formBusca input[type='text'] {
+    padding-left: 10px;
+}
+
+#formBusca button {
+    width: 20%;
+    height: 20px;
+    box-sizing: content-box;
+    background-color: lightskyblue;
+    color: white;
+    border: 1px solid grey;
+}
+
+#formBusca button:hover {
+    font-weight: bold;
+    border: 2px solid darkgrey;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#filtro {
+    width: 23%;
+    height: 5%;
+    margin-left: 10px;
+}
+
+#filtro label {
+    width: 30%;
+}
+
+#filtro select {
+    width: 70%;
+    height: 100%;
+}

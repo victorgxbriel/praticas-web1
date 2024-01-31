@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/index.css">
     <title>Gerenciador</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Passageiros do IMD Air-lines</h1>
+    </header>
+    <section>
+        <div id="formBusca">
+            <input type="text" name="busca" placeholder="Digite o valor da pesquisa">
+            <button>Buscar</button>
+        </div>
+        <div id="filtro">
+            <label>Buscar por: </label>
+            <select name="filtros">
+                <option value="todos">Listar todos</option>
+                <option value="1classe">1ª classe</option>
+                <option value="2classe">2ª classe</option>
+                <option value="3classe">3ª classe</option>
+            </select>
+        </div>
+        <div id="resultado"></div>
+    </section>
 </body>
 </html>
