@@ -26,3 +26,8 @@ body {
 #cadastro #form {
     height: 16vw;
 }
+
+#cadastro .botaoForm {
+    width: 80%;
+    height: 15%;
+}

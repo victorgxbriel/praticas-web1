@@ -31,18 +31,23 @@
     padding-left: 5px;
 }
 
-.botaoLogin {
+.botaoForm {
     width: 10vw;
     height: 2vw;
     font-size: 1vw;
     border: 1px solid grey;
-    border-radius: 5vw;
+    border-radius: 0.5vw;
     color: white;
     background-color: lightskyblue;
     margin-top: 5px;
 }
 
-.botaoLogin:hover {
+.botaoForm:hover {
     font-weight: bold;
     border: 2px solid darkgrey;
+}
+
+.campos input[type=radio] {
+    width: 0.5vw;
+    vertical-align: middle;
 }

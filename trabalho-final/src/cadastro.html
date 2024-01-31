@@ -9,10 +9,10 @@
 </head>
 <body>
     <div id="cadastro">
-        <h1>Cadastro</h1>
+        <h1>Cadastro de Passageiro</h1>
         <div id="form">
             <div class="campos">
-                <label for="nameCadastro">Nome completo:</label>
+                <label for="nameCadastro">Nome:</label>
                 <input type="text" id="nameCadastro" name="nameCadastro" placeholder="Nome Completo">
             </div>
             <div class="campos">
@@ -20,32 +20,16 @@
                 <input type="text" id="cpfCadastro" name="cpfCadastro" placeholder="000.000.000-00">
             </div>
             <div class="campos">
-                <label for="dataCadastro">Data de Nascimento: </label>
-                <input type="date" id="dataCadastro" name="dataCadastro">
+                <label for="endCadastro">Endereço: </label>
+                <input type="text" id="endCadastro" name="endCadastro" placeholder="Endereço">
             </div>
             <div class="campos">
-                <label for="emailCadastro">E-mail: </label>
-                <input type="text" id="emailCadastro" name="emailCadastro" placeholder="seuemail@email.com">
+                <input type="radio" name="classeCadastro" value="1classe" checked> 1ª classe
+                <input type="radio" name="classeCadastro" value="2classe"> 2ª classe
+                <input type="radio" name="classeCadastro" value="3classe"> 3ª classe
             </div>
-            <div class="campos">
-                <label for="confirmeCadastro">Confirme seu email: </label>
-                <input type="text" id="confirmeCadastro" name="confirmeCadastro" placeholder="seuemail@email.com">
-            </div>
-            <div class="campos">
-                <label for="senhaCadastro">Senha: </label>
-                <input type="password" id="senhaCadastro" name="senhaCadastro" placeholder="********">
-            </div>
-            <div class="campos">
-                <label for="confirmeSenha">Confirme sua senha: </label>
-                <input type="password" id="confirmeSenha" name="confirmeSenha" placeholder="********">
-            </div>
-            <div class="campos">
-                <label for="cargoCadastro">Cargo: </label>
-                <input type="checkbox" name="cargoCadastro" value="aluno" checked> Aluno
-                <input type="checkbox" name="cargoCadastro" value="professor"> Professor
-                <input type="checkbox" name="cargoCadastro" value="secretario"> Secretario
-            </div>
-            <button class="botaoLogin">Cadastre-se</button>
+            <button class="botaoForm">Adicionar passageiro</button>
+            <button class="botaoForm">Enviar</button>
         </div>
     </div>
 </body>
