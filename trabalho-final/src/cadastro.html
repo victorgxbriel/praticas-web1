@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/cadastro.css">
     <link rel="stylesheet" href="../style/form.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Cadastro</title>
 </head>
 <body>
@@ -17,20 +18,21 @@
             </div>
             <div class="campos">
                 <label for="cpfCadastro">CPF:</label>
-                <input type="text" id="cpfCadastro" name="cpfCadastro" placeholder="000.000.000-00">
+                <input type="text" id="cpfCadastro" name="cpfCadastro" placeholder="000.000.000-00" maxlength="14">
             </div>
             <div class="campos">
                 <label for="endCadastro">Endereço: </label>
                 <input type="text" id="endCadastro" name="endCadastro" placeholder="Endereço">
             </div>
-            <div class="campos">
-                <input type="radio" name="classeCadastro" value="1classe" checked> 1ª classe
-                <input type="radio" name="classeCadastro" value="2classe"> 2ª classe
-                <input type="radio" name="classeCadastro" value="3classe"> 3ª classe
+            <div id="radios" class="campos">
+                <input type="radio" name="classeCadastro" value="1ª classe" checked> 1ª classe
+                <input type="radio" name="classeCadastro" value="2ª classe"> 2ª classe
+                <input type="radio" name="classeCadastro" value="3ª classe"> 3ª classe
             </div>
-            <button class="botaoForm">Adicionar passageiro</button>
-            <button class="botaoForm">Enviar</button>
+            <button id="botaoCadastro" class="botaoForm" onclick="addPassageiro()">Adicionar passageiro</button>
+            <button class="botaoForm" onclick="enviarDados()">Enviar</button>
         </div>
     </div>
+    <script src="../script/script.js"></script>
 </body>
 </html>

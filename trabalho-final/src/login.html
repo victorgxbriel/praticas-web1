@@ -7,25 +7,27 @@
     <title>Login</title>
     <link rel="stylesheet" href="../style/login.css">
     <link rel="stylesheet" href="../style/form.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div id="login">
         <h1>IMD Air-lines</h1>
         <div id="form">
             <div class="campos">
-                <label for="nameLogin">Usuário: </label>
-                <input type="text" id="nameLogin" name="nameLogin" placeholder="Usuario">
+                <label for="userLogin">Usuário: </label>
+                <input type="text" id="userLogin" name="userLogin" placeholder="Usuario">
             </div>
             <div class="campos">
                 <label for="senhaLogin">Senha: </label>
                 <input type="password" id="senhaLogin" name="senhaLogin" placeholder="********">
             </div>
             <div id="botoes">
-                <button class="botaoForm">Entrar</button>
-                <button class="botaoForm">Limpar</button>
+                <button id="botaoLogin" class="botaoForm">Entrar</button>
+                <button class="botaoForm" onclick="limpar()">Limpar</button>
             </div>
             <a href="#">Esqueceu sua senha?</a>
         </div>
     </div>
+    <script src="../script/script.js"></script>
 </body>
 </html>

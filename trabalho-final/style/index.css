@@ -71,3 +71,19 @@ section {
     width: 70%;
     height: 100%;
 }
+
+.pass {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#resultado {
+    height: 100%;
+}

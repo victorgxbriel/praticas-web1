@@ -12,19 +12,20 @@
     </header>
     <section>
         <div id="formBusca">
-            <input type="text" name="busca" placeholder="Digite o valor da pesquisa">
-            <button>Buscar</button>
+            <input type="text" id="busca" name="busca" placeholder="Digite o valor da pesquisa">
+            <button onclick="buscarCPF()">Buscar</button>
         </div>
         <div id="filtro">
             <label>Buscar por: </label>
-            <select name="filtros">
+            <select name="filtros" id="filtroSelect" onchange="filtragem()">
                 <option value="todos">Listar todos</option>
-                <option value="1classe">1ª classe</option>
-                <option value="2classe">2ª classe</option>
-                <option value="3classe">3ª classe</option>
+                <option value="1ª classe">1ª classe</option>
+                <option value="2ª classe">2ª classe</option>
+                <option value="3ª classe">3ª classe</option>
             </select>
         </div>
         <div id="resultado"></div>
     </section>
+    <script src="../script/script.js"></script>
 </body>
 </html>
